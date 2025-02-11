@@ -17,7 +17,15 @@ git clone https://github.com/your-username/browser-use-demo.git
 cd browser-use-demo
 ```
 
-2. **Install dependencies:**
+2. **Set up environment variables:**
+
+Create a `.env` file in the root directory of the project and add your OpenAI API key:
+
+```
+OPENAI_API_KEY=your_openai_api_key_here
+```
+
+3. **Install dependencies:**
 
 Via poetry:
 
@@ -34,7 +42,7 @@ pip install -r requirements.txt
 playwright install
 ```
 
-3. **Run app:**
+4. **Run app:**
 
 Via poetry:
 
@@ -42,7 +50,7 @@ Via poetry:
 poetry run python app/init.py
 ```
 
-Via pip:
+or 
 
 ```
 python app/init.py
