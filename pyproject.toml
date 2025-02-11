@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ai-agent-browser"
+version = "0.1.0"
+description = "Your project description"
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<4.0"
+langchain-openai = "*"
+python-dotenv = "*"
+browser-use = "*"
+
+[tool.poetry.group.dev.dependencies]
+# any dev dependencies here
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
